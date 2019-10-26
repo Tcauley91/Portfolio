@@ -1,30 +1,46 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
     <html lang="en-us">
         <title>Tyler Cauley's Portfolio</title>
 
+<!-- link to bootstrao -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <!--link to CSS code-->
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Bootstrap override CSS -->
+<link rel="stylesheet" type="text/css" href="css/style2.css">
 
-<div class="wrap">
+<!--This is the clickable links header right, Name Left-->
+<div class="headerbackground">
+        <div id="Mainheader">
+  
+  
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <img src="images/name.jpg" width="200" height="50" class="d-inline-block align-top" alt="">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  
+  
+        <!--start of page body  -->
 
-<!--This is the clickable links header right-->
-<div id="Mainheader">
-<section id="navbar">
-        <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </section>
+    <body>
 
-<!--this is my name-->
-    
-<body>
-<section id="Nametag">Tyler Cauley
-      </section>
-     </div>
-</div>
-<!-- <body> -->
 <!--"Portfolio Content-->
 
 <div id="Portfolioheader">
@@ -41,7 +57,7 @@
         <!-- Hangman -->
         <div class="portfolio-item-container">
                 <a href ="#1">
-                        <img src="assets/images/comingsoon.jpg" alt="comingsoon"
+                        <img src="images/comingsoon.jpg" alt="comingsoon"
                          class="portfolio-images">
                 <div class="banner">
                      Hangman
@@ -52,7 +68,7 @@
      <!-- <Trivia Game> -->
         <div class="portfolio-item-container">
                 <a href ="#2">
-                        <img src="assets/images/comingsoon.jpg" alt="comingsoon"
+                        <img src="images/comingsoon.jpg" alt="comingsoon"
                         class="portfolio-images">
                 <div class="banner">
                      Trivia Game
@@ -63,7 +79,7 @@
      <!-- <Rock Paper Scissors> -->
         <div class="portfolio-item-container">
                  <a href ="#3">
-                        <img src="assets/images/comingsoon.jpg" alt="comingsoon"
+                        <img src="images/comingsoon.jpg" alt="comingsoon"
                         class="portfolio-images">
                 <div class="banner">
                     Rock Paper Scissors
@@ -76,7 +92,7 @@
           <!-- <RPG Game> -->
             <div class="portfolio-item-container">
                 <a href ="#4">
-                        <img src="assets/images/comingsoon.jpg" alt="comingsoon"
+                        <img src="images/comingsoon.jpg" alt="comingsoon"
                         class="portfolio-images">
                 <div class="banner">
                     RPG Game
@@ -87,7 +103,7 @@
      <!-- <Rutgers Info Widget> -->
             <div class="portfolio-item-container">
                     <a href ="#4">
-                            <img src="assets/images/comingsoon.jpg" alt="comingsoon"
+                            <img src="images/comingsoon.jpg" alt="comingsoon"
                             class="portfolio-images">
                     <div class="banner">
                         Rutgers Info Widget
@@ -97,6 +113,12 @@
         </div>
     </div>
     <div id="footer">Copyright &copy;</div>
+
+     <!-- Bootstrap JavaScript -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     </body>
 </html>
