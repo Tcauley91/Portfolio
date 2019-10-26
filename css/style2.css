@@ -1,0 +1,92 @@
+/* Navbar CSS */
+.navbar-light .navbar-nav .nav-link {
+    color: #777777;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background: #ffffff;
+}
+
+.d-inline-block {
+    display: inline-block!important;
+    height: 60px;
+    width: 220px;
+    padding-left: 30px;
+    margin-bottom: -9px;
+    margin-top: -9px;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: right;
+    align-items: right;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: .5rem 1rem;
+    align-content: right;
+}
+
+   ul li:not(:last-child):after {
+    content: " | ";
+    color: #777777;
+}
+
+.headerbackground{
+    height: 50px;
+    width: 100%;
+    background: #ffffff;
+}
+
+/* Body CSS */
+
+.container{
+    background-color: #ffffff;
+    margin-right:100px;
+    margin-top: 75px;
+    width: 700px;
+    margin-left: 50px;
+    /* overflow: auto;
+    width: 100% */
+    overflow: auto;
+    
+}
+
+:root{
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 980px;
+    /* overflow: auto; */
+}
+
+@media screen and (max-width: 767px) {
+    .cntr {
+      position: relative;
+    }
+    .profilepic {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      /* height:auto;
+      width: 100%; */
+      
+    }
+
+    /* .clearfix {
+        overflow: auto;
+       } */
+
+    /* .text1 {
+      position: absolute;
+      color: white;
+      font-size: 24px;
+      font-weight: bold; */
+    }
+    }
+
