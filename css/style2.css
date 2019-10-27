@@ -79,9 +79,13 @@
   
    /* Portfolio CSS */
 
-   @media (min-width: 576px){
-.col-sm-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 30%;
-}}
+   @media (min-width: 640px){
+      
+.col-lg-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 200%;
+    max-width: 50%;
+    height: auto;
+    width:100%;
+    }}
+
