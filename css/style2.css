@@ -51,8 +51,8 @@
     margin-top: 75px;
     width: 700px;
     margin-left: 50px;
-    /* overflow: auto;
-    width: 100% */
+    overflow: auto;
+    width: 100%;
     overflow: auto;
     
 }
@@ -64,14 +64,12 @@
     /* overflow: auto; */
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 640px) {
     .cntr {
       position: relative;
     }
     .profilepic {
-      position: absolute;
-      left: 0;
-      top: 0;
+      height:auto;
       width: 100%;
       /* height:auto;
       width: 100%; */
