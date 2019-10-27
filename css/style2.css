@@ -64,28 +64,24 @@
 }
 
 @media screen and (max-width: 640px) {
-    .cntr {
+    /* .cntr {
       position: relative;
-    }
+    } */
     .profilepic {
       height:auto;
       width: 100%;
-      /* height:auto;
-      width: 100%; */
+    }}
       
+    p {
+        clear: all;
+
     }
+  
+   /* Portfolio CSS */
 
-    /* .clearfix {
-        overflow: auto;
-       } */
-
-    /* .text1 {
-      position: absolute;
-      color: white;
-      font-size: 24px;
-      font-weight: bold; */
-    }
-    }
-
-
-
+   @media (min-width: 576px){
+.col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 30%;
+}}
