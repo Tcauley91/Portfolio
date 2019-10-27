@@ -52,8 +52,7 @@
     width: 700px;
     margin-left: 50px;
     overflow: auto;
-    width: 100%;
-    overflow: auto;
+    
     
 }
 
@@ -87,4 +86,6 @@
       font-weight: bold; */
     }
     }
+
+
 
