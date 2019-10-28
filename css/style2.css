@@ -64,6 +64,19 @@
 }
 
 @media (min-width: 990px) {
+    
+    #Portfolioheader {
+        background: #ffffff;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 35px;
+        border: 2px #dddddd;
+        margin-bottom: -16px;
+        width: 700px;
+        text-align: justify;
+       margin-left:50px;
+    }
+    
     .row{
         margin-left:50px;
     }
@@ -122,9 +135,11 @@
         padding-top: 2px;
         padding-bottom: 10px;
     }
+
+    
 }
   
-   /* Portfolio CSS */
+   
 
    @media (min-width: 640px){
       
