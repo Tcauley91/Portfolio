@@ -63,19 +63,66 @@
     /* overflow: auto; */
 }
 
+@media (min-width: 990px) {
+    .row{
+        margin-left:50px;
+    }
+
+    .profilepic{
+        width:150px;
+        height:250px;
+    }
+
+}
+
+    @media (min-width: 760px) {
+    p {
+        clear: all;
+        width: 560px;
+}
+
+.profilepic{
+    width:150px;
+    height:250px;
+}}
+
+
+
+
 @media screen and (max-width: 640px) {
     /* .cntr {
       position: relative;
     } */
-    .profilepic {
-      height:auto;
-      width: 100%;
-    }}
+    .profilepic{
+        width:150px;
+        height:250px;
+    }
       
     p {
         clear: all;
+        width: 560px;
 
     }
+
+    .portfolio-images{
+        width:200px;
+        height:200px;
+        padding-bottom: 10px;
+        border-block-end: #ffffff;
+    }
+
+    .banner{
+        position: absolute;
+        background: #4aaaa5;
+        margin-top: -45px;
+        color: #ffffff;
+        text-align: center;
+        width: 200px;
+        height: 25px;
+        padding-top: 2px;
+        padding-bottom: 10px;
+    }
+}
   
    /* Portfolio CSS */
 
@@ -88,4 +135,3 @@
     height: auto;
     width:100%;
     }}
-
