@@ -11,6 +11,12 @@ body {
   background-color: #fff;
   background-image: url("../siteimages/woven.jpeg");
 }
+/* .headerbackground{
+  background: #fff;
+  margin: 0 auto;
+  /* padding-left: 230px; */
+  /* border: solid 2px #cccccc;
+} */ 
 
 #Mainheader {
   /* position: absolute; */
@@ -322,6 +328,4 @@ input[type="submit"]:hover {
 font-family: Georgia, Times, Times , serif;
 background: #ffffff;
 color:#777777;
-
 }
-

@@ -113,6 +113,16 @@
     width: 100%;
 }
 
+li {
+    text-align: right;
+    display: inline-block;
+}
+
+ul li:not(:last-child):after {
+    content: "";
+    /* color: #777777; */
+}
+
 }
 
 
@@ -166,5 +176,15 @@
         max-width: 100%;
         height: auto;
         width: 100%;
+    }
+
+    li {
+        text-align: right;
+        display: inline-block;
+    }
+
+    ul li:not(:last-child):after {
+        content: "";
+        /* color: #777777; */
     }
 }
