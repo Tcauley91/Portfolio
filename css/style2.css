@@ -82,7 +82,7 @@
     } */
 
     .profilepic{
-        width:150px;
+        width:175px;
         height:250px;
     }
 
@@ -101,7 +101,7 @@
 }
 
 .profilepic{
-    width:150px;
+    width:175px;
     height:250px;
 }
 
@@ -133,7 +133,7 @@ ul li:not(:last-child):after {
       position: relative;
     } */
     .profilepic{
-        width:150px;
+        width:175px;
         height:250px;
     }
       
