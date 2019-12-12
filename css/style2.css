@@ -3,6 +3,7 @@
     color: #777777;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background: #ffffff;
+    width: 100%
 }
 
 .d-inline-block {
@@ -16,14 +17,13 @@
 
 .navbar {
     position: relative;
-    display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -ms-flex-align: right;
     align-items: right;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .nav-link {
@@ -33,7 +33,7 @@
 }
 
    ul li:not(:last-child):after {
-    content: " | ";
+    content: "";
     color: #777777;
 }
 
@@ -46,14 +46,16 @@
 /* Body CSS */
 
 .container{
+
     background-color: #ffffff;
-    margin-right:100px;
+    height: 500px;
     margin-top: 75px;
-    width: 700px;
-    margin-left: 50px;
     overflow: auto;
     
-    
+}
+
+#contfluid{
+    margin-top: 100px;
 }
 
 :root{
@@ -63,7 +65,7 @@
     /* overflow: auto; */
 }
 
-@media (min-width: 990px) {
+@media (min-width: 1400px) {
     
     #Portfolioheader {
         background: #ffffff;
@@ -72,7 +74,7 @@
         margin-top: 35px;
         border: 2px #dddddd;
         margin-bottom: -16px;
-        width: 700px;
+        /* width: 700px; */
         text-align: justify;
        margin-left:50px;
     }
@@ -86,24 +88,9 @@
         height:250px;
     }
 
-    p {
-        clear:all;
-         width: 560px;
- 
-     }
-
 }
 
     @media (min-width: 760px) {
-    p {
-        clear: all;
-        width: 560px;
-}
-
-.profilepic{
-    width:175px;
-    height:250px;
-}
 
 .col-lg-6 {
     /* -ms-flex: 0 0 100%; */
@@ -137,16 +124,11 @@ ul li:not(:last-child):after {
         height:250px;
     }
       
-    p {
-       clear:all;
-        width: 560px;
-        margin-right:-50px;
 
-    }
 
     .portfolio-images{
-        width:200px;
-        height:200px;
+        width:250px;
+        height:250px;
         padding-bottom: 10px;
         border-block-end: #ffffff;
     }
