@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-    <html lang="en-us">
-        <title>Let's Create!</title>
+<html lang="en-us">
+    <title>Tyler Cauley's Portfolio</title>
 
- <!-- link to bootstrao -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<!--link to CSS code-->
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<!-- Bootstrap override CSS -->
-<link rel="stylesheet" type="text/css" href="css/style2.css">
+    <head>
+        <!-- link to bootstrao -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       
+        <!-- Bootstrap override CSS -->
+        <link rel="stylesheet" type="text/css" href="css/style2.css">
+         <!--link to CSS code-->
+         <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
 
 <!--This is the clickable links header right, Name Left-->
-<div class="headerbackground">
     <div id="Mainheader">
-
-
         <nav class="navbar navbar-expand-lg navbar-light">
-            <img src="siteimages/name.jpg" width="200" height="50" class="d-inline-block align-top" alt="">
+            <img src="siteimages/name.jpg" width="200" height="50" id="dispname" class="d-inline-block align-top" alt="">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,7 +35,6 @@
             </div>
           </nav>
         </div>
-      </div>
 
 
     <!--start of page body  -->
@@ -46,12 +46,12 @@
    <!-- Client contact info input -->
 
    <div class="container">
-      <div style="text-align:left">
         <h2>Contact</h2>
-      </div>
+        <hr>
+      
       <div class="row">
-        <div class="column">
-          <form action="/action_page.php">
+        <div class="column-md-8">
+          <form action="mailto:tylerdevelopethis@gmail.com" method="post" enctype="text/plain">
             <label for="fname">Name</label>
             <input type="text" id="fname" name="Name" placeholder="John Smith">
             <label for="Email">Email</label>
@@ -62,6 +62,7 @@
         </div>
       </div>
     </div>
+  </div>
   
        
 
