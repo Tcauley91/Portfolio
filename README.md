@@ -3,7 +3,7 @@ Mobile first portfolio, on the landing page you'll find an about me sectoin with
 
 
 <img src="siteimages/aboutme.jpeg" alt="aboutme"/>
-<img src="siteimages/portfoloi.jpeg" alt="portfolio"/>
+<img src="siteimages/portfolio.jpeg" alt="portfolio"/>
 <img src="siteimages/contact.jpeg" alt="contact"/>
 
 
