@@ -1,9 +1,13 @@
 # Responsive_Portfolio
-Honework #2. This is my responsive portfolio for the second homework on UNCC Bootcamp. Items to include are responsive navbar, responsive layout and images. 
+Mobile first portfolio, on the landing page you'll find an about me sectoin with a navbar at the top screen you will find links to my physical portfolio as well as a contact page containing links to Linkedin. 
 
-View screen shots in issues.
 
-see my responsive portfolio here - need help with Navbar width/alignment and photo resizing within the portfolio upon responsive.
+<img src="siteimages/aboutme.jpeg" alt="aboutme"/>
+<img src="siteimages/portfoloi.jpeg" alt="portfolio"/>
+<img src="siteimages/contact.jpeg" alt="contact"/>
+
+
+View my deployed site here:
 
  https://tcauley91.github.io/Responsive_Portfolio/
  
