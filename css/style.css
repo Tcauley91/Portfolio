@@ -184,13 +184,13 @@ h6 {
 .banner {
   position: absolute;
   background: #4aaaa5;
-  margin-top: -45px;
+  margin-top: -60px;
   color: #ffffff;
   text-align: center;
-  width: 160px;
-  height: 25px;
-  padding-top: 2px;
-  padding-bottom: 10px;
+  width: 250px;
+  height: 40px;
+  /* padding-top: 5px; */
+  font-size: 30px;
 }
 
 .image-wrapper {
@@ -255,10 +255,6 @@ textarea {
   border: 1px solid #ccc;
   margin-top: 6px;
   resize: vertical;
-}
-
-#linkdin{
-  margin: auto
 }
 
 label {
