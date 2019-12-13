@@ -257,6 +257,10 @@ textarea {
   resize: vertical;
 }
 
+#linkdin{
+  margin: auto
+}
+
 label {
   background-color: #ffffff;
   background-size: 700px;

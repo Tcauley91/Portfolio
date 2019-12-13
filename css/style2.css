@@ -51,7 +51,14 @@
     height: 500px;
     margin-top: 100px;
     overflow: auto;
+    align-content: center
     
+}
+
+.LI-profile-badge{
+
+    margin-left: 30px;
+    margin-bottom: 20px
 }
 
 #contfluid{
