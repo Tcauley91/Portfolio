@@ -242,6 +242,12 @@ h6 {
   padding-bottom: 15px;
 }
 
+.giticon{
+  align-items: center;
+  margin-left: 140px;
+  margin-bottom: 10px;
+}
+
 #contentbox {
   box-sizing: border-box;
 }
