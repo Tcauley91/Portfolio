@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Parallax Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e7c3c40cdf.js" crossorigin="anonymous"></script>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<!-- Body -->
+<body>
+  <!-- Nav -->
+  <div class="navbar-fixed">
+    <nav role="navigation" id="navcolor">
+      <div class="nav-wrapper container">
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#aboutme">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <ul id="navmobile" class="sidenav">
+          <li><a href="#aboutme">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center White-text text-lighten-2">Welcome, my name is Tyler Cauley</h1>
+        <!-- <h4 class="header center White-text text-lighten-3">and I am a Web Developer</h4> -->
+    
+      </div>
+    </div>
+    <div class="parallax"><img src="codebackground2.jpg" alt="a lot of computer code goes here"></div>
+  </div>
+
+  <!-- About me -->
+
+  <div class="container">
+      <div class="section">
+  
+        <div class="row">
+          <div class="col s12 center">
+            <h4 class="text"><strong>About Me</strong></h4>
+            <hr>
+              <div id="aboutme" class="section scrollspy">
+                <p class="left-align light" id="text">I am a Web Developer based in Charlotte, NC. A graduate from the UNC Charlotte Full-Stack Web Development program with knowldge in <strong>HTML5, CSS3, JavaScript, jQuery, Bootstrap, Foundation, Materialize, React.js, Node.js, C#, .Net, Database Theory, Bookshelf.js, MongoDB, MySQL, Command Line, and Git.</strong> I love this craft because it is a never ending learning experience which means the bar is always being raised. It allows me to use my creative mind while developing a user friendly product that accomodates a smooth experience making it easy for your clients to navigate headache free. When I am not coding I can be found road cycling or traveling. <strong>Some fun facts about me:</strong> The first time I flew in an airplane I jumped out. My dream is to own a fishing boat one day and become a certified captain. I am very passionate about collector cars and investing in them for others and for myself.</p>
+              </div>
+            </div>
+        </div>
+  
+      </div>
+    </div>
+    <!-- Photo of me -->
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <div class="row center">
+            </div>
+          </div>
+        </div>
+        <div class="parallax"><img src="aboutme2.JPG" alt="hi its me" class="aboutmeimg"></div>
+      </div>    
+
+      <!-- Portfolio header -->
+
+      <div class="container">
+          <div class="section">
+      
+            <div class="row">
+              <div class="col s12 center">
+                  <div id="portfolio" class="section scrollspy">
+                    <h4 class="text"><strong>Portfolio</strong></h4>
+                  </div>
+                <hr>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+
+  <!--   Project Display Section   -->
+  <div class="container">
+    <div class="section" id="projectcont">
+      <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <!-- <h3 class="center green-text">9-5 Day Planner</h3> -->
+              <img src="dayplanner.jpg" class="materialboxed" alt="plan your day here" id="projectimg">
+                <a href ="https://tcauley91.github.io/Unit-05-Third-Party-APIs-Homework-Day-Planner/" id="livebutton" class="waves-effect waves-light btn-small"><i class="large material-icons left">airplay</i>View Deployed Application</a>
+                <br>
+                <br>
+                <a href ="https://github.com/Tcauley91/Unit-05-Third-Party-APIs-Homework-Day-Planner" id="gitbutton" class="waves-effect waves-light btn-small"><i class="fab fa-github left"></i>View Application on GitHub</a>
+                <p class="text">A real time Day-Planner. Created dynamically with jQuery and styled with CSS, simply type your day plans in. As time is either past, present or future the hour blocks will be color coded to suit.</p>
+            </div>
+          </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+              <!-- <h3 class="center green-text">Password Generator</h3> -->
+              <img src="pwgen.jpg" class="materialboxed" alt="pw generator" id="projectimg">
+              <a href ="https://tcauley91.github.io/JavaScript-Homework-Password-Generator/" id="livebutton" class="waves-effect waves-light btn-small"><i class="large material-icons left">airplay</i>View Deployed Application</a>
+              <br>
+              <br>
+              <a href ="https://github.com/Tcauley91/JavaScript-Homework-Password-Generator" id="gitbutton" class="waves-effect waves-light btn-small"><i class="fab fa-github left"></i>View Application on GitHub</a>
+            <p class="text">Powered by JavaScript. This secure, random password generator will produce a safe password between 8 & 128 characters that include upper/lowercase letters, numbers & symbols.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <!-- <h3 class="center green-text">Feed Me!</h3> -->
+              <img src="feedme.jpg" class="materialboxed" alt="Feed Me" id="projectimg">
+              <a href ="https://tcauley91.github.io/Feed-Me/" id="livebutton" class="waves-effect waves-light btn-small"><i class="large material-icons left">airplay</i>View Deployed Application</a>
+              <br>
+              <br>
+              <a href ="https://github.com/Tcauley91/Feed-Me" id="gitbutton" class="waves-effect waves-light btn-small"><i class="fab fa-github left"></i>View Application on GitHub</a>
+              <p class="text">Feed Me is a solution to the hardest question of the day; what am I going to eat? Feed Me can populate nearby restaurants or if you are would prefer to cook; it can produce over 360,000 recipes. This application is powered jQuery and JavaScript utilizing two APIs, Spoonacular & Zomato.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h3 class="header col s12 light">Let's create together!</h3>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="getstarted.jpg" alt="pseudocode"></div>
+  </div>
+
+  <div id="contact" class="section scrollspy">
+    <div class="container">
+      <div class="row">
+          <div class="col s6 center">
+            <h5 class="white-text">Contact Me</h5>
+           <form action="mailto:tylerdevelopethis@gmail.com" method="post" enctype="text/plain">
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="Name" placeholder="John Smith">
+              <label for="Email">Email</label>
+              <input type="text" id="Email" name="Email" placeholder="johnsmith@email.com">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Send it!">
+            </form>
+          </div>
+          <br> 
+          <div class="col s6 center">
+            <h5 class="white-text">Connect</h5>
+            <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="brandon-cauley-2840a3191"><a class="LI-simple-link" href='https://www.linkedin.com/in/brandon-cauley-2840a3191?trk=profile-badge'>Brandon Cauley</a></div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      
+           
+    
+   
+    
+     
+    
+    
+    <!-- Footer -->
+    
+    <footer class="page-footer" id="footer">
+        <div class="row center">
+          <H6>Copyright &copy;</H6>
+        </div>
+  
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+  </body>
+</html>

@@ -1,0 +1,148 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ body{
+   background: #5b756c
+ }
+
+nav ul a,
+nav .brand-logo {
+  color:white;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: white;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  .sidenav{
+  background: #5b756c;
+  color: white
+  }
+
+  
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (min-width: 993px){
+.container {
+    width: 100%;
+}
+
+.parallax-container {
+  line-height: 0;
+  height: auto;
+  width: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.aboutmeimg{
+  width: 600px;
+  height: 300px
+  } 
+
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* My CSS */
+
+#projectimg {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10px
+
+}
+
+#projectcont{
+  width:100%;
+
+}
+
+#livebutton{
+  width: 100%;
+  background: black;
+}
+
+#gitbutton{
+  width: 100%;
+  background: black;
+}
+
+#sendbtn{
+  width: 100%;
+  background: black;
+}
+
+.icon-block .material-icons {
+  font-size: 2rem
+}
+
+.fa-github:before {
+  content: "\f09b";
+  font-size: 2rem
+}
+
+ .aboutmeimg{
+width: 50%;
+height: 600px
+} 
+
+.text{
+  font-family: 'Courier New', Courier, monospace;
+  color: white
+}
+
+#text{
+  font-family: 'Courier New', Courier, monospace;
+  color: white
+}
+
+#footer{
+  background: #5b756c;
+  justify-content: center 
+}
+
+#navcolor{
+  background: #5b756c;
+  font-family: 'Courier New', Courier, monospace;
+  color: white
+}
