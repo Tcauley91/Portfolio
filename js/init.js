@@ -20,3 +20,9 @@ $(document).ready(function(){
   $('.scrollspy').scrollSpy();
 });
 
+// side nav activation
+
+$(document).ready(function(){
+  $('.sidenav').sidenav();
+});
+
