@@ -157,12 +157,11 @@ height: 600px
   font-size: 6em;
 }
 
-.fa-github:before {
+/* #githubicon {
   content: "\f09b";
-  font-size: 7;
   font-size: 7rem;
   color: white;
-}
+} */
 
 #resumebtn{
   color: white;
