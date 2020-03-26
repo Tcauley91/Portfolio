@@ -1,5 +1,11 @@
-# Responsive_Portfolio
-Mobile first portfolio, on the landing page you'll find an about me sectoin with a navbar at the top screen you will find links to my physical portfolio as well as a contact page containing links to Linkedin. 
+# Portfolio
+Mobile first portfolio, this is a simple, clean one page portfolio that is divided into sections.
+
+## Technologies
+HTML
+JavaScript
+Materialize - Framework Library
+
 
 
 <img src="assets/sc1.jpg" alt="sc1"/>
