@@ -30,6 +30,6 @@ Mobile first portfolio, this is a simple, clean one page portfolio that is divid
 
 View my deployed site here:
 
- https://tcauley91.github.io/Responsive_Portfolio/
+ https://tcauley91.github.io/Portfolio/
  
  
