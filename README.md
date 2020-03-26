@@ -2,9 +2,11 @@
 Mobile first portfolio, this is a simple, clean one page portfolio that is divided into sections.
 
 ## Technologies
-HTML
-JavaScript
-Materialize - Framework Library
+<ul>
+<li>HTML</li>
+<li>JavaScript</li>
+<li>Materialize - Framework Library</li>
+</ul>
 
 
 ## Desktop
