@@ -17,7 +17,8 @@ Materialize - Framework Library
 <img src="assets/sc4.jpg" alt="sc4"/>
 
 ## Mobile
-<img src="assets/mobileabout.jpg" alt="sc1"/>
+<img src="assets/mobileabout.jpg" alt="sc5"/>
+<img src="assets/mobileportfolio.jpg" alt="sc6"/>
 
 
 
