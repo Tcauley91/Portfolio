@@ -39,6 +39,7 @@ p {
   }
 
   
+  
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -69,8 +70,8 @@ p {
 }
 
 .aboutmeimg{
-  width: 100%;
-  height: 100%
+  width: 50%;
+  height: 100%;
   } 
 
 }
